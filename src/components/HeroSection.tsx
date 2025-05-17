@@ -39,24 +39,6 @@ const HeroSection = () => {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-transparent mix-blend-overlay"></div>
         </div>
-        <div className="flex flex-wrap justify-center gap-8 pt-8">
-          <div className="flex flex-col items-center">
-            <span className="text-3xl font-bold text-primary">100+</span>
-            <span className="text-sm text-muted-foreground">Successful Projects</span>
-          </div>
-          <div className="flex flex-col items-center">
-            <span className="text-3xl font-bold text-primary">50+</span>
-            <span className="text-sm text-muted-foreground">Happy Clients</span>
-          </div>
-          <div className="flex flex-col items-center">
-            <span className="text-3xl font-bold text-primary">8+</span>
-            <span className="text-sm text-muted-foreground">Years Experience</span>
-          </div>
-          <div className="flex flex-col items-center">
-            <span className="text-3xl font-bold text-primary">4.9/5</span>
-            <span className="text-sm text-muted-foreground">Client Satisfaction</span>
-          </div>
-        </div>
       </div>
     </section>
   );
